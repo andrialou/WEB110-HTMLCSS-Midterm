@@ -1,0 +1,111 @@
+/* Alexandria Schneider 3/20/21 */
+body 
+    { 
+    background-color: #9BBDA7; 
+    color: #292929;
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    }
+header
+    {
+    background-color: #9BBDA7;
+    color: white;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+    font-style: italic;
+    font-size: 2em;
+    }
+/*Styles nav ul, nav li, and nav a style the nav as an unordered list. The text shadow in nav a helps make the white text more clear on the gradient (see below).*/
+nav ul
+    {
+    list-style-type: none;
+    }
+nav li
+    {
+    display: inline;
+    padding: 1em;
+    }
+nav a
+    {
+    text-decoration: none;
+    color: white;
+    font-family: Georgia, "Times New Roman", serif;
+    text-shadow: 0.1px 0.1px 10px #B38728;
+    }
+/*The nav has a gold color gradient bar created by the id selector below called #nav*/
+#nav
+    {
+    text-align: center;
+    background-color: #B38728;
+    background-image: linear-gradient(to bottom, #B38728, #FBF5B7, #B38728);
+    background-repeat: no-repeat;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-top-left-radius: 90px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 90px;
+    border-bottom-right-radius: 5px;
+    font-size: 1.7em;
+    }
+#wrapper
+    {
+    background-color: white;
+    padding: 3em;
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border: 9px double #588768;
+    }
+/*Styles for the images on each page*/
+#image
+    {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    margin-top: 2em;
+    border: 5px inset #B38728;
+    }
+h2
+    {
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 2.5em;
+    text-decoration: underline;
+    margin: 0;
+    }
+h3
+    {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 2em;
+    }
+h4
+    {
+    font-size: 1.3em;
+    }
+p
+    {
+    font-size: 1.1em;
+    text-align: justify;
+    }
+dl
+    {
+    font-size: 1.1em;
+    }
+dd
+    {
+    font-style: italic;
+    padding: 0.5em;
+    }
+li
+    {
+    font-size: 1.1em;
+    }
+footer 
+    {
+    font-size: small;
+    font-style: italic;
+    text-align: center;
+    padding: 1em;
+    }
